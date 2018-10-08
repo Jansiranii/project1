@@ -13,9 +13,9 @@ public class Pattern {
 			}		
 	System.out.println();
 	}
-		for(int i=ch.length-1;i>=0;i--)
+		for(int i=ch.length;i>=0;i--)
 		{
-			for(int j=0;j<i+1;j++)
+			for(int j=0;j<i-1;j++)
 			{
 				System.out.print(ch[j]);	           
 			}	
