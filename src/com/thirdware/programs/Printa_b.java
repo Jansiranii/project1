@@ -16,7 +16,6 @@ public class Printa_b {
 			{
 				System.out.println(a);	
 			}
-			else if (b>a) 
 			else if (y>=2) 
 			{
 				System.out.println(b);		
