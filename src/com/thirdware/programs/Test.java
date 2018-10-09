@@ -2,7 +2,7 @@ package com.thirdware.programs;
 
 import java.util.Scanner;
 
-public class Printa_b {
+public class Test {
 
 	public static void main(String[] args) {
 		
@@ -10,7 +10,6 @@ public class Printa_b {
 		System.out.println("enter a and b value");
 		int a=s.nextInt();
 		int b=s.nextInt();
-<<<<<<< HEAD
     	 int x=a-b;
     	 int y=b-a;
 			if(x>=2)
@@ -27,4 +26,6 @@ public class Printa_b {
 				System.out.println("inconclusive");
 			}
   }
+
+
 }
