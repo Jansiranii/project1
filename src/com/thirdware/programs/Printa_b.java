@@ -10,12 +10,6 @@ public class Printa_b {
 		System.out.println("enter a and b value");
 		int a=s.nextInt();
 		int b=s.nextInt();
-    	
-		int diff=a-b;
-		
-		if(diff>1||diff<=0)
-		{
-			if(a>b)
     	 int x=a-b;
     	 int y=b-a;
 			if(x>=2)
@@ -32,7 +26,5 @@ public class Printa_b {
 			{
 				System.out.println("inconclusive");
 			}
-		}
-	}
   }
 }
