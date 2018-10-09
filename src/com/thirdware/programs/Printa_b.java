@@ -10,6 +10,7 @@ public class Printa_b {
 		System.out.println("enter a and b value");
 		int a=s.nextInt();
 		int b=s.nextInt();
+<<<<<<< HEAD
     	 int x=a-b;
     	 int y=b-a;
 			if(x>=2)
@@ -17,6 +18,15 @@ public class Printa_b {
 				System.out.println(a);	
 			}
 			else if (y>=2) 
+=======
+	
+		
+			if(a-b>=2)
+			{
+				System.out.println(a);	
+			}
+			else if (b-a>=2) 
+>>>>>>> e70ccdceaaeda27cb01c328a5f6c5ef82e047fef
 			{
 				System.out.println(b);		
 			}
@@ -26,4 +36,8 @@ public class Printa_b {
 				System.out.println("inconclusive");
 			}
   }
+=======
+		
+	}
+>>>>>>> e70ccdceaaeda27cb01c328a5f6c5ef82e047fef
 }
