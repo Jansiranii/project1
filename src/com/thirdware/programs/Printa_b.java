@@ -16,10 +16,14 @@ public class Printa_b {
 		if(diff>1||diff<=0)
 		{
 			if(a>b)
+    	 int x=a-b;
+    	 int y=b-a;
+			if(x>=2)
 			{
 				System.out.println(a);	
 			}
 			else if (b>a) 
+			else if (y>=2) 
 			{
 				System.out.println(b);		
 			}
@@ -30,4 +34,5 @@ public class Printa_b {
 			}
 		}
 	}
+  }
 }
