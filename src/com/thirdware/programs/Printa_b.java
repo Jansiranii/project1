@@ -10,7 +10,6 @@ public class Printa_b {
 		System.out.println("enter a and b value");
 		int a=s.nextInt();
 		int b=s.nextInt();
-<<<<<<< HEAD
     	 int x=a-b;
     	 int y=b-a;
 			if(x>=2)
